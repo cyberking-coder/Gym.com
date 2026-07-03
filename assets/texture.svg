@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="t" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#1a0a0d"/>
+      <stop offset="60%" stop-color="#0d0d0f"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0 H0 V48" fill="none" stroke="#ffffff" stroke-opacity=".03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#t)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <g stroke="#ff2d2d" stroke-opacity=".08" stroke-width="2">
+    <line x1="-100" y1="700" x2="1300" y2="300"/>
+    <line x1="-100" y1="760" x2="1300" y2="360"/>
+  </g>
+</svg>
